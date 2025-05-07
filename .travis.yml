@@ -10,11 +10,11 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-west-2"
-  app: "docker-react"
-  env: "DockerReact-env"
-  bucket-name: "elasticbeanstalk-us-west-2-651266901933"
-  bucket-path: "docker-react"
+  region: "us-east-1"
+  app: "Frontend"
+  env: "Frontend-env"
+  bucket-name: "elasticbeanstalk-us-east-1-651266901933"
+  bucket-path: "Frontend"
   # only deploy on changes to master 
   on:
     branch: master
